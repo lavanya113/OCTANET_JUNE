@@ -1,0 +1,123 @@
+*{ 
+    margin:0px;
+    padding:0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.section{
+   
+    background-image: url("./picture.jpg");
+    width:100%;
+    min-height:100vh;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    position: fixed;
+    
+}
+.hero{
+    width:100%;
+    padding:0px 10px;
+    position:absolute;
+}
+.navbar{
+    width:100%;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+    align-items:left;
+    padding-top: 35px 0;
+    position:absolute;
+}
+.navbar h2{
+    font-weight: 700;
+    text-transform:uppercase;
+    font-size: 30px;
+    color: #000;
+    
+    
+}
+.navbar ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul li{
+    list-style: none;
+   margin: 20px;
+   
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #faf3f3;
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px; 
+}
+.navbar ul li a:hover{
+    color:#7e7c7c;
+    transition: 0.5s ease;
+}
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top:280px;
+    left: 60px;
+    position:absolute;
+}
+.content h1{
+    align-content:center;
+    font-size:40px;
+    font-weight: 800;
+    color:#0b0000;
+    text-transform: uppercase;
+
+}
+.content p{
+    font-weight: 500;
+    font-size: 35px;
+    color:#127fe6;
+}
+.content .button{
+    text-decoration: none;
+    margin: 25px 0px;
+    padding:10px 15px;
+    color:#302f2f;
+    text-transform: uppercase;
+    background-color: #ccc7c7;
+    letter-spacing: 1.5px;
+    font-size: 24px;
+}
+.content .button:hover{
+    background-color: #4d4b4b;
+    transition: 0.8s ease;
+}
+.content .social i{
+    padding:0 10px;
+    color:#fff;
+    font-size: 25px;
+}
+.social {
+    display: flex;
+    gap: 30px;
+}
+
+.social a {
+    text-decoration: none;
+    padding: 10px;
+    margin:10px;
+    background-color:#554f4f;
+    border-radius: 50%;
+}
+
+.bottom{
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
